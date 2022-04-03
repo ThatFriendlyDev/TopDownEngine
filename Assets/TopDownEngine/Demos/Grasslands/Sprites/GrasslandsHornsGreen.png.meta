@@ -135,7 +135,7 @@ TextureImporter:
       213: 21300086
     second: HornyGreen_43
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -155,6 +155,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -164,11 +166,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -186,9 +188,13 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -1175,6 +1181,51 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      HornyGreen_5: 21300010
+      HornyGreen_24: 21300048
+      HornyGreen_29: 21300058
+      HornyGreen_13: 21300026
+      HornyGreen_37: 21300074
+      HornyGreen_31: 21300062
+      HornyGreen_26: 21300052
+      HornyGreen_9: 21300018
+      HornyGreen_1: 21300002
+      HornyGreen_36: 21300072
+      HornyGreen_2: 21300004
+      HornyGreen_23: 21300046
+      HornyGreen_30: 21300060
+      HornyGreen_39: 21300078
+      HornyGreen_34: 21300068
+      HornyGreen_43: 21300086
+      HornyGreen_4: 21300008
+      HornyGreen_38: 21300076
+      HornyGreen_17: 21300034
+      HornyGreen_41: 21300082
+      HornyGreen_3: 21300006
+      HornyGreen_8: 21300016
+      HornyGreen_18: 21300036
+      HornyGreen_10: 21300020
+      HornyGreen_42: 21300084
+      HornyGreen_22: 21300044
+      HornyGreen_11: 21300022
+      HornyGreen_21: 21300042
+      HornyGreen_25: 21300050
+      HornyGreen_40: 21300080
+      HornyGreen_33: 21300066
+      HornyGreen_35: 21300070
+      HornyGreen_19: 21300038
+      HornyGreen_6: 21300012
+      HornyGreen_16: 21300032
+      HornyGreen_7: 21300014
+      HornyGreen_14: 21300028
+      HornyGreen_15: 21300030
+      HornyGreen_12: 21300024
+      HornyGreen_28: 21300056
+      HornyGreen_32: 21300064
+      HornyGreen_20: 21300040
+      HornyGreen_0: 21300000
+      HornyGreen_27: 21300054
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

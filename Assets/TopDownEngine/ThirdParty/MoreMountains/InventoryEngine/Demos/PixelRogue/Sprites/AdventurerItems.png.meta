@@ -68,6 +68,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -99,9 +101,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
@@ -444,6 +449,22 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      AdventurerItems_BlueArmor: 21300012
+      MiniIconQuantity: 21300018
+      AdventurerItems_Apple: 21300000
+      AdventurerItems_Minigun: -6256563695458652631
+      AdventurerItems_Axe: 21300014
+      AdventurerItems_Rifle: 7694205521886297151
+      MiniIconRarity: 21300020
+      AdventurerItems_Sword: 21300008
+      MiniIconCost: 21300016
+      AdventurerItems_Shotgun: 4201866339775181760
+      AdventurerItems_Shield: 21300006
+      AdventurerItems_Bomb: 21300004
+      AdventurerItems_Revolver: 3534290621102056461
+      AdventurerItems_GreenArmor: 21300010
+      AdventurerItems_Coin: 21300002
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

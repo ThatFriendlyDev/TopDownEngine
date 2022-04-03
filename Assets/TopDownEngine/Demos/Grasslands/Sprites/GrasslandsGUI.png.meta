@@ -42,7 +42,7 @@ TextureImporter:
       213: 21300024
     second: GrasslandsGUI_BarFrontOrange
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -62,6 +62,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -71,11 +73,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -93,9 +95,13 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -431,6 +437,20 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      GrasslandsGUI_AvatarGreen: 21300020
+      GrasslandsGUI_AvatarBgGreen: 21300016
+      GrasslandsGUI_AvatarBg: 21300000
+      GrasslandsGUI_BarFrontOrange: 21300024
+      GrasslandsGUI_AvatarBgRed: 21300004
+      GrasslandsGUI_AvatarBlue: 21300018
+      GrasslandsGUI_AvatarYellow: 21300006
+      GrasslandsGUI_BarFrontGreen: 21300022
+      GrasslandsGUI_BarBg: 21300012
+      GrasslandsGUI_AvatarRed: 21300008
+      GrasslandsGUI_Coin: 21300010
+      GrasslandsGUI_AvatarBgYellow: 21300002
+      GrasslandsGUI_AvatarBgBlue: 21300014
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

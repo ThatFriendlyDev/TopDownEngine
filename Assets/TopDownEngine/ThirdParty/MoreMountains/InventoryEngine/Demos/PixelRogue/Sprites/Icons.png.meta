@@ -62,6 +62,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -93,9 +95,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
@@ -396,6 +401,20 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      IconRevolver: 1161201145128540330
+      IconBlueArmor: 21300008
+      IconQuestionMark: 21300014
+      IconShotgun: 2130535880278150251
+      IconApple: 21300000
+      IconMinigun: 1202984965197363600
+      IconBomb: 21300002
+      IconSword: 21300006
+      IconAxe: 21300016
+      IconRifle: 184950751378207249
+      IconCoin: 21300004
+      IconShield: 21300010
+      IconGreenArmor: 21300012
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

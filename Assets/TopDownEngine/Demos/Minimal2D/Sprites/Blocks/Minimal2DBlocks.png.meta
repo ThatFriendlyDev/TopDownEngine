@@ -168,7 +168,7 @@ TextureImporter:
       213: -1767696529684011279
     second: Min2D_PressurePadOn
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -188,6 +188,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -196,9 +198,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 1
     aniso: 16
-    mipBias: -100
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -219,11 +221,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -234,7 +240,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -245,7 +252,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -256,7 +264,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -267,7 +276,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -278,6 +288,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1299,6 +1310,55 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Min2D_Wall100x400: 21300042
+      Min2D_Wall500x50: 21300024
+      Min2D_PressurePadOn: -1767696529684011279
+      Min2D_Wall100x300: 21300026
+      Min2D_Wall500x200: 21300040
+      Min2D_Wall100x100_alt: 21300044
+      Min2D_Wall400x200: 21300038
+      Min2D_RedKey: 21300088
+      Min2D_Wall1000x50: 21300030
+      Min2D_Wall300x200: 21300036
+      Min2D_YellowDoor: 21300070
+      Min2D_DamageZone: 21300080
+      Min2D_Wall400x50: 21300022
+      Min2D_SwitchOff: 21300084
+      Min2D_SwitchOn: 21300086
+      Min2D_GreenGate: 21300058
+      Min2D_RedDoor: 21300090
+      Min2D_BlueGate: 21300060
+      Min2D_PressurePadOff: -6605051314177750889
+      Min2D_Wall100x1000: 21300048
+      Min2D_Wall700x50: 21300028
+      Min2D_YellowKey: 21300074
+      Min2D_Jumper: 21300068
+      Min2D_Wall500x100: 21300008
+      Min2D_YellowChest: 21300076
+      Min2D_BluePortal: 21300062
+      Min2D_Wall100x200: 21300032
+      Min2D_PushableBlock: 21300052
+      Min2D_GateToNextLevel: 21300056
+      Min2D_FallingBlock: 21300050
+      Min2D_Wall100x500: 21300066
+      Min2D_Wall200x100: 21300002
+      Min2D_Wall100x200_alt: 21300010
+      Min2D_Target: 21300072
+      Min2D_KillZone: 21300082
+      Min2D_DestructibleBlock: 21300054
+      Min2D_Wall100x100: 21300000
+      Min2D_Wall200x200: 21300034
+      Min2D_Wall300x100: 21300004
+      Min2D_OrangePortal: 21300064
+      Min2D_DarkChest: 21300078
+      Min2D_Wall300x50: 21300020
+      Min2D_Wall1000x100: 21300016
+      Min2D_Wall100x700: 21300012
+      Min2D_Wall700x100: 21300014
+      Min2D_Wall400x100: 21300006
+      Min2D_Wall200x50: 21300018
+      Min2D_MovingPlatform: 21300046
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

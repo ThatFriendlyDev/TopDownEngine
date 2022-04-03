@@ -99,7 +99,7 @@ TextureImporter:
       213: 21300062
     second: MMI_IconBack
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -119,6 +119,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -128,11 +130,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 1
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
-    wrapV: -1
-    wrapW: -1
+    wrapV: 0
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -150,9 +152,13 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -887,6 +893,39 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      MMI_CheckboxOff: 21300014
+      MMI_IconHeart: 21300052
+      MMI_ProgressBarBase: 21300040
+      MMI_IconBack: 21300062
+      MMI_DiamondButtonBlue: 21300036
+      MMI_ButtonBlue: 21300024
+      MMI_RadioOff: 21300010
+      MMI_SectionBorder: 21300008
+      MMI_TitleBanner: 21300026
+      MMI_StarButtonBlue: 21300030
+      MMI_StarButtonOff: 21300028
+      MMI_RoundButtonOff: 21300018
+      MMI_IconCross: 21300054
+      MMI_SwitchBackground: 21300002
+      MMI_ProgressBarFrontYellow: 21300046
+      MMI_RoundButtonBlue: 21300020
+      MMI_ProgressBarFrontBlue: 21300044
+      MMI_ProgressBarBack: 21300042
+      MMI_PageBackground: 21300000
+      MMI_IconMusic: 21300056
+      MMI_TextInputBackground: 21300038
+      MMI_StarButtonYellow: 21300032
+      MMI_DiamondButtonOff: 21300034
+      MMI_IconGear: 21300048
+      MMI_CheckboxOnBlue: 21300016
+      MMI_IconSound: 21300058
+      MMI_ButtonOff: 21300022
+      MMI_RoundButtonSmallOff: 21300004
+      MMI_IconHome: 21300050
+      MMI_RadioOnBlue: 21300012
+      MMI_IconStar: 21300060
+      MMI_RoundButtonSmallBlue: 21300006
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

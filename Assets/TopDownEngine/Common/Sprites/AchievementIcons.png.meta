@@ -51,7 +51,7 @@ TextureImporter:
       213: 21300030
     second: AchievementIcons_15
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -71,6 +71,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -79,12 +81,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -102,9 +104,13 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -503,6 +509,23 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      AchievementIcons_11: 21300022
+      AchievementIcons_Money: 21300004
+      AchievementIcons_15: 21300030
+      AchievementIcons_7: 21300014
+      AchievementIcons_9: 21300018
+      AchievementIcons_13: 21300026
+      AchievementIcons_10: 21300020
+      AchievementIcons_JumpAround: 21300002
+      AchievementIcons_Stimpack: 21300006
+      AchievementIcons_12: 21300024
+      AchievementIcons_Locked: 21300010
+      AchievementIcons_14: 21300028
+      AchievementIcons_ThisIsTheEnd: 21300000
+      AchievementIcons_Dead: 21300008
+      AchievementIcons_8: 21300016
+      AchievementIcons_6: 21300012
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

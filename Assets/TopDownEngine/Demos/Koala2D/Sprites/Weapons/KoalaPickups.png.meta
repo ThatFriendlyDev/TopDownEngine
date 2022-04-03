@@ -42,7 +42,7 @@ TextureImporter:
       213: 21300024
     second: Koala_Pickups_MetalKey
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -62,6 +62,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -71,11 +73,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -93,9 +95,13 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -431,6 +437,20 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Koala_Pickups_Shadow1: 21300020
+      Koala_Pickups_ShotgunAmmo: 21300006
+      Koala_Pickups_Shadow2: 21300018
+      Koala_Pickups_Shotgun: 21300002
+      Koala_Pickups_Sword: 21300000
+      Koala_Pickups_Rifle: 21300016
+      Koala_Pickups_MetalKey: 21300024
+      Koala_Pickups_PlasmaAmmo: 21300010
+      Koala_Pickups_RifleAmmo: 21300012
+      Koala_Pickups_Plasma: 21300014
+      Koala_Pickups_Gun: 21300004
+      Koala_Pickups_WoodenKey: 21300022
+      Koala_Pickups_GunAmmo: 21300008
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
