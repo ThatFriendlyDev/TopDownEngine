@@ -1,0 +1,23 @@
+{
+    "name": "MoreMountains.TopDownEngine.Cinemachine.Editor",
+    "references": [
+        "GUID:a190093c124ab8f478ae9d6f43bc9d6e",
+        "GUID:ff1ae7c5c64541644b580d25fba20405",
+        "GUID:4a1cb1490dc4df8409b2580d6b44e75e"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "MOREMOUNTAINS_TOPDOWNENGINE",
+        "MOREMOUNTAINS_TOOLS",
+        "MOREMOUNTAINS_FEEDBACKS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
